@@ -11,3 +11,5 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn
 
 Their code is based on a generative model which generates sketches in realtime, we have removed both their decoder part and the loss function to add a classifier module using a cross entropy loss.
 We also tried to use different loss functions, but due to some problems with the way they work, we left them commented for now and plan to work on it in the future.
+
+The Report.pdf reports our findings from this project and also cites areas for work in the future. This project and the corresponding report was part of our capstone project for the Intelligent Visual Computing course (COMPSCI 674) at the University of Massachusetts Amherst.
